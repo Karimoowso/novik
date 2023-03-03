@@ -1,0 +1,98 @@
+@import url(../fonts/);
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: local("Gilroy-Bold"), local("Gilroy-Bold"),
+    url("../fonts/gilroy-bold.woff2") format("woff2"),
+    url("../fonts/gilroy-bold.woff") format("woff");
+}
+body {
+  font-family: Gilroy-Bold, sans-serif;
+  font-weight: 400;
+}
+.container {
+
+  margin: 0 auto;
+  max-width: 900px;
+}
+.header {
+  display: flex;
+
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  margin: 40px;
+  font-size: 50px;
+  max-width: min-content;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name2 {
+  max-width: 137px;
+}
+.imgno {
+  max-width: 100%;
+  margin: 0 0 200px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.list_2 {
+  margin: 200px auto;
+  padding: 30px;
+  background-color: #fff;
+  text-align: center;
+}
+.title_2 {
+  font-size: 1em;
+  font-weight: 100;
+}
+.title_1 {
+  text-align: center;
+  margin: 30px auto;
+}
+.main_3 {
+  margin: 50px auto;
+  padding: 70px 0;
+  text-align: center;
+}
+.logos {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin: 20px 0 0;
+}
+.photos {
+  margin: 100px 0 0;
+}
+.main4 {
+  /* display: flex; */
+  margin: 50px auto;
+  padding: 70px 0;
+  text-align: center;
+}
+.contacts {
+  margin: 70px 0 0;
+}
+.send {
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px 8px;
+  border-radius: 30em;
+  max-width: 150px;
+  background-color: black;
+}
+.logo_ {
+  margin: 30px auto 0;
+}
