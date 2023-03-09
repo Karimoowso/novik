@@ -1,0 +1,26 @@
+.name {
+  font-size: 50px;
+  font-family: "Gilroy-Bold";
+  font-size: 47px;
+  line-height: 59px;
+}
+.home__title {
+  margin-bottom: 49px;
+  font-family: "Gilroy-Medium";
+
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.home {
+  padding: 72px 0;
+}
+.denis__photo {
+  width: 100%;
+}
+.info {
+  margin-bottom: 10px;
+}

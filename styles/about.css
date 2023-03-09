@@ -1,0 +1,18 @@
+.about {
+  background: #f6f6f6;
+  width: 100%;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 107px;
+}
+.title {
+  font-size: 50px;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 47px;
+  line-height: 59px;
+  margin-bottom: 43px;
+}
+.about__info {
+  font-family: "Gilroy-Medium", sans-serif;
+  margin-bottom: 43px;
+}

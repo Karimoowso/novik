@@ -8,73 +8,101 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <div class="container">
+    
       <header class="header">
-        <p><a href="#">Home</a></p>
-        <p><a href="#">About me</a></p>
-        <p><a href="#">Skilss</a></p>
-        <p><a href="#">Portfolio</a></p>
-        <p><a href="#">Contacts</a></p>
+        <div class="container">
+        <ul class="nav__list">
+          <li class="header__nav"><a id="home" href="#">Home</a></li>
+          <li class="header__nav"><a  href="#about">About me</a></li>
+          <li class="header__nav"><a id="skills" href="#">Skills</a></li>
+          <li class="header__nav"><a id="portfolio" href="#">Portfolio</a></li>
+          <li class="header__nav"><a id="contacts" href="#">Contacts</a></li>
+        </ul>
+        </div>
       </header>
 
-      <hr />
-      <main class="main">
-        <div class="name">Denis Novik</div>
-        <div class="name2">UX | UI designer 24 years old, Minsk</div>
-      </main>
-      <footer><img class="imgno" src="./img/BSPP2266@2x.jpg" alt="" /></footer>
-      <header></header>
-
-      <main class="list_2">
-        <div class="img_back"></div>
-
-        <h1 class="title_1">About me</h1>
-        <p class="title_2">
+      <main>
+        <section id="home">
+          <div class="container">
+        <div class="home">
+          <div class="home__title">
+            <div class="name">
+              <p>Denis</p>
+              <p>Novik</p>
+            </div>
+            <div class="info">
+              UX | UI designer <br />
+              24 years old, Minsk
+            </div>
+          </div>
+          <img class="denis__photo" src="./img/BSPP2266@2x.jpg" alt="" />
+        </div>
+        </div>
+        </section>
+        <section id="about" class="about">
+           <div class="container">
+        <div>
+          <h1 class="title">About me</h1>
+  <p class="about__info">
           Hi, I'm Denis – UX/UI designer from Minsk. <br />
           I'm interested in design and everything connected with it.
         </p>
-        <p class="title_2">
+        <p class="about__info">
           I'm studying at courses "Web and mobile design <br />
           interfaces" in IT-Academy.
         </p>
-        <p class="title_2">
+        <p class="about__info">
           Ready to implement excellent projects <br />
           with wonderful people.
         </p>
-      </main>
-      <main class="main_3">
-        <h1 class="title_1">Skills</h1>
-        <p class="title_2">I work in such programs as</p>
-        <div class="logos">
-          <img src="./img/pslogo.jpg" width="150" alt="" class="logo" />
-          <img src="./img/illogo.jpg" alt="" class="logo" width="150" /><img
-            src="./img/effelogo.jpg"
-            alt=""
-            class="logo"
-            width="150"
-          /><img src="./img/figmalogo.jpg" alt="" class="logo" width="150" />
         </div>
+        </div>
+        </section>
+        <section id="skills">
+           <div class="container">
+            <div class="skills">
+<h1 class="title">Skills</h1>
+<p class="skills__info">I work in such programs as</p>
+<div class="logo">
+
+
+
+</div>
+</div>
+</div>
+        </section>
+
+<section>
+<div class="container skills__wrapper">
+<h2 class="skills__headrline">Skills</h2>
+
+<p class="skills__text">I work in such programs as</p>
+<div class="skill__items">
+<div class="skills__wrapperImg">
+  <img class="" src="./img/ps.logo.svg" alt="ps logo"></div>
+
+</div>
+
+<p class="skills__name">Adobe
+Photoshop</p>
+<div class="skills__wrapperStars">
+  <img src="./img/starb.svg" alt="" class="skills__star">
+  <img src="./img/starb.svg" alt="" class="skills__star">
+  <img src="./img/starb.svg" alt="" class="skills__star">
+  <img src="./img/starb.svg" alt="" class="skills__star">
+  <img src="./img/starw.svg" alt="" class="skills__star">
+</div>
+
+</div>
+
+
+</section>
+
+
+
       </main>
-      <main class="main_3">
-        <h1 class="">Portfolio</h1>
-        <img src="./img/photo1.jpg" alt="" class="photos" width="100%" />
-        <p class=""><a href="" class="">Online fashion store - Homepage</a></p>
-        <img src="./img/photo2.jpg" alt="" class="photos" width="100%" />
-        <p class=""><a href="" class="">Reebok Store - Concept</a></p>
-        <img src="./img/photo3.jpg" alt="" class="photos" width="100%" />
-        <p class=""><a href="" class="">Braun Landing Page - Concept</a></p>
-      </main>
-      <footer class="main4">
-        <h1 class="contacts">Contacts</h1>
-        <p>
-          Want to know more or just chat? <br />
-          You are welcome!
-        </p>
-        <p class="send" id="">
-          <a href="#" style="color: white">send message</a>
-        </p>
-        <img src="./img/Group 12.png" alt="" width="300" class="logo_" />
-      </footer>
+
+
     </div>
   </body>
 </html>

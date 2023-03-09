@@ -1,0 +1,43 @@
+.skills{
+  padding-top: 110px;
+  padding-bottom: 91px;
+  text-align: center;
+  
+}
+
+.skills__info{
+  font-family: "Gilroy-Medium", sans-serif;
+  margin-bottom: 43px;
+}
+
+.skills__wrapper{
+
+}
+.skills__headerline{
+
+font-family: 'Gilroy-Bold';
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+}
+.skills__text{
+  font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+}
+.skill__items{
+  width: 166px;
+  display: flex;
+ align-items: center;
+  
+
+}
+.skills__name{
+  margin: 24px 0 40px 0;
+text-align: center;
+font-family: 'Gilroy-Bold';
+font-size: 14px;
+line-height: 17px;
+
+}
