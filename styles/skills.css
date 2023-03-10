@@ -6,15 +6,12 @@
 
 .skills__info {
   font-family: "Gilroy-Medium";
-   font-size: 18px;
+  font-size: 18px;
   line-height: 22px;
   text-align: center;
   margin-bottom: 43px;
 }
 
-.skills__wrapper {
-      
-}
 .skills__headerline {
   font-family: "Gilroy-Bold";
   font-size: 34px;
@@ -24,23 +21,18 @@
 }
 .skills__text {
   font-family: "Gilroy-Medium";
- 
 }
 .skill__items {
   width: 166px;
   height: 206px;
   /* display: flex;
   justify-content: space-between; */
- text-align: center;
-
+  text-align: center;
 }
 .skills__name {
- 
- 
-  text-align: -moz-center  ;
-  
+  text-align: -moz-center;
 }
-.logo__name{
+.logo__name {
   margin: 24px 0 40px 0;
   max-width: 70px;
   min-height: 34px;
@@ -48,18 +40,16 @@
   font-size: 14px;
   line-height: 17px;
 }
-.skills__stars{
+.skills__stars {
   display: flex;
   justify-content: space-between;
   width: 26px;
 }
-.items{
+.items {
   display: flex;
   justify-content: space-between;
   padding-bottom: 110px;
-
 }
-  .item:last-child{
-     margin: 0;
-  }
-   
+.item:last-child {
+  margin: 0;
+}

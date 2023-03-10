@@ -1,23 +1,19 @@
-.nav__list{
-
-
-width: 100%;
-border-bottom: 1px solid #828282;
-
+.nav__list {
+  width: 100%;
+  border-bottom: 1px solid #828282;
 }
 
-.header__nav{
+.header__nav {
   margin: 32px;
   color: #828282;
 }
-.header__nav:hover{
+.header__nav:hover {
   color: #070707;
- 
 }
-.header{
+.header {
   position: sticky;
-top: 0;
-left: 0;
-background-color: white;
-width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
 }
