@@ -4,6 +4,7 @@
 @import url(./home.css);
 @import url(./about.css);
 @import url(./skills.css);
+@import url(./portfolio.css);
 
 @font-face {
   font-family: "Gilroy-Bold";
@@ -37,7 +38,7 @@ body {
 }
 
 
-.main {
+/* .main {
   
 }
 .name2 {
@@ -84,7 +85,7 @@ a {
 }
 .main4 {
   /* display: flex; */
-  margin: 50px auto;
+  /* margin: 50px auto;
   padding: 70px 0;
   text-align: center;
 }
@@ -101,4 +102,4 @@ a {
 }
 .logo_ {
   margin: 30px auto 0;
-}
+} */ */

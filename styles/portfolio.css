@@ -1,0 +1,24 @@
+.portfolio {
+  text-align: center;
+  background: #f6f6f6;
+  padding: 96px 0 112px;
+}
+.portfolio__headerline {
+  margin-bottom: 47px;
+  color: #070707;
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+}
+.photos {
+  margin-bottom: 42px;
+}
+.text__portfolio{
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+ 
+  color: #070707; 
+}

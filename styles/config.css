@@ -1,23 +1,20 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-a{
-   text-decoration: none;
+a {
+  text-decoration: none;
   color: unset;
 }
-li{
+li {
   list-style-type: none;
-  
-
 }
 
-ul{
+ul {
   display: flex;
-justify-content: space-between;
-align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-.container{
- 
+.container {
 }
